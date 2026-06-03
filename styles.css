@@ -1,0 +1,37 @@
+.table-wrapper {
+    width: 200px;
+    overflow-x: auto;
+    max-height: 200px;  /* Enables vertical scroll */
+}
+
+.table-wrapper table {
+    width: auto;
+    min-width: 100%;
+}
+
+.table-with-sticky-headers thead {
+    position: static;  /* Reset any parent sticky */
+    top: auto;
+    z-index: auto;
+}
+
+.table-with-sticky-headers thead th {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;  /* Required to occlude content */
+}
+
+.table-with-sticky-headers tbody td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+.table-with-sticky-headers thead th:first-child {
+    position: sticky;
+    top: 0;    /* Vertical sticky */
+    left: 0;   /* Horizontal sticky */
+    z-index: 101;  /* Highest z-index */
+}
