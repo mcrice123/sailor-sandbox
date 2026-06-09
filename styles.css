@@ -1,3 +1,28 @@
+
+:root {
+    
+}
+
+html {
+    background: linear-gradient(#98dffa, #fdf9fa) no-repeat;
+    box-sizing: content-box;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(0deg, transparent 12%, rgb(255,255,255) 13%, rgb(2255,255,255) 14%, transparent 15%, transparent 36%, rgb(255,255,255) 37%, rgb(255,255,255) 38%, transparent 39%, transparent 62%, rgb(255,255,255) 63%, rgb(255,255,255) 64%, transparent 65%, transparent 87%, rgb(255,255,255) 88% ,rgb(255,255,255) 89%, transparent 90%, transparent),
+                    linear-gradient(90deg, transparent 12%, rgb(255,255,255) 13%, rgb(255,255,255) 14%, transparent 15%, transparent 36%, rgb(0255,255,255) 37%, rgb(255,255,255) 38%, transparent 39%, transparent 62%, rgb(255,255,255) 63%, rgb(255,255,255) 64%, transparent 65%, transparent 87%, rgb(255,255,255) 88%, rgb(255,255,255) 89%, transparent 90%, transparent),
+                    linear-gradient(0deg, transparent 14%, #98dffa 15%, #98dffa 16%, transparent 17%, transparent 38%, #98dffa 39%, #98dffa 40%, transparent 41%, transparent 64%, #98dffa 65%, #98dffa 66%, transparent 67%, transparent 89%, #98dffa 90%, #98dffa 91%, transparent 92%, transparent),
+                    linear-gradient(90deg, transparent 14%, #98dffa 15%, #98dffa 16%, transparent 17%, transparent 38%, #98dffa 39%, #98dffa 40%, transparent 41%, transparent 64%, #98dffa 65%, #98dffa 66%, transparent 67%, transparent 89%, #98dffa 90%, #98dffa 91%, transparent 92%, transparent);
+    height: 100%;
+    background-size: 100px 100px;
+    margin: 0;
+}
+
+
+
+/* Table styling */
+
 .table-wrapper {
     width: 200px;
     overflow-x: auto;
